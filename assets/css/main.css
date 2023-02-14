@@ -344,21 +344,6 @@ h1 {
  justify-content: space-evenly;
 }
 
-@media screen and (max-width: 736px) {
- #technologies {
-  display: flex;
-  text-align: center;
- }
-
- .circular--portrait {
-  width: 150px !important;
-  height: 150px !important;
- }
- .circular--portrait img {
-  transform: scale(1.12) !important;
- }
-}
-
 .circular--portrait {
  position: relative;
  top: 50%;
@@ -373,6 +358,33 @@ h1 {
  width: 110%;
  height: auto;
  transform: scale(1.09);
+}
+
+.button.next-section {
+ letter-spacing: 0rem;
+ transition: all 0.3s ease-in-out;
+ font-weight: 600;
+}
+
+.button.next-section:hover {
+ border-bottom-color: transparent;
+ letter-spacing: 0.1em;
+ transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 736px) {
+ #technologies {
+  display: flex;
+  text-align: center;
+ }
+
+ .circular--portrait {
+  width: 150px !important;
+  height: 150px !important;
+ }
+ .circular--portrait img {
+  transform: scale(1.12) !important;
+ }
 }
 
 h2 {
