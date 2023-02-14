@@ -155,10 +155,14 @@ input, select, textarea {
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
+		transition: all 0.3s ease-in-out;
+		font-weight: 600;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
+			letter-spacing: 0.05em;
+			transition: all 0.3s ease-in-out;
 		}
 
 	strong, b {
@@ -624,6 +628,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		transition: ease-out 0.3s;
 	}
 
 		.icon:before {
@@ -655,6 +660,10 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.icon:hover {
+			transform: scale(1.05);
+		}
+
 /* Image */
 
 	.image {
@@ -667,7 +676,7 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			background-color: rgba(19, 21, 25, 0.1);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -943,6 +952,7 @@ input, select, textarea {
 
 				ul.icons li a:hover {
 					background-color: rgba(255, 255, 255, 0.075);
+					transform: scale(1.05);
 				}
 
 				ul.icons li a:active {
@@ -1311,9 +1321,9 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 7.5rem;
-			height: 7.5rem;
-			line-height: 7.5rem;
+			width: 5rem;
+			height: 5rem;
+			line-height: 5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 			/* background-image: url("../../images/IMG_8704\ \(3\).PNG"); */
