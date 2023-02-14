@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f485110b-52a3-4259-84d2-cb8d65a77170/deploy-status)](https://app.netlify.com/sites/hunter-padgett/deploys)
+
 Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
