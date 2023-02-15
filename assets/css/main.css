@@ -258,6 +258,10 @@ a:hover {
  transition: all 0.3s ease-in-out;
 }
 
+a#no-space:hover {
+  letter-spacing: 0em !important;
+}
+
 strong,
 b {
  color: #ffffff;
