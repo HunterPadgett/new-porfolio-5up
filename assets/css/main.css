@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600&display=swap");
 
 /*
 	Dimension by HTML5 UP
@@ -259,7 +259,7 @@ a:hover {
 }
 
 a#no-space:hover {
-  letter-spacing: 0em !important;
+ letter-spacing: 0em !important;
 }
 
 strong,
@@ -1851,9 +1851,8 @@ body.is-preload #header .content .inner {
 }
 
 #main article#work h2.major {
-  margin-bottom: 3rem;
+ margin-bottom: 3rem;
 }
-
 
 #main article.active {
  -moz-transform: translateY(0);
