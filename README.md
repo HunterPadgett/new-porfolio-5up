@@ -8,5 +8,5 @@ My porfolio site! Displays information about me, my projects, and how to get in 
 
 Deployed link: https://hunterpadgett.netlify.app/
 
-![Screenshot 2023-03-08 112237](https://user-images.githubusercontent.com/106113692/223774001-49047591-f1ce-444b-a27d-1371ab1a8f61.png)
+![image](https://user-images.githubusercontent.com/106113692/223779815-85ea9028-9173-49cb-8c85-434f537ac2b7.png)
 
