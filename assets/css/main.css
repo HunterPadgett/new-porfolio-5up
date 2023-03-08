@@ -343,6 +343,17 @@ h1 {
  font-size: 1.3rem;
 }
 
+.project-container {
+ height: 110vh;
+ overflow-y: scroll;
+ border: #ffffff 1px solid;
+ padding: 0.5rem;
+}
+
+.work-btn {
+  margin-top: 2rem;
+}
+
 #technologies {
  display: flex;
  justify-content: space-evenly;
